@@ -1,14 +1,19 @@
 import React from "react";
+import "./index.css";
 
-function Component() {
+function Component(props) {
   return (
-    <div>
-      <img src="" alt="" />
-      <p>Japan</p>
-      <a href="www.google.com">Google</a>
-      <h3>Mount Fuji</h3>
-      <p>something date</p>
-      <p>Description</p>
+    <div className="component-travel">
+      <img className="travel-image" src={props.image} alt="" />
+      <p>{props.location}</p>
+      <a href={props.googleMapsUrl}>View on Google Maps</a>
+      <h3>{props.title}</h3>
+      <p>
+        {props.startDate} - {props.endDate}
+      </p>
+      <p>{props.description}</p>
     </div>
   );
 }
+
+export default Component;

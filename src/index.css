@@ -86,3 +86,22 @@ button:focus-visible {
 
   color: #ffffff;
 }
+
+.component-travel {
+  position: relative;
+  width: 550px;
+  height: 704px;
+  left: 0px;
+  top: 130px;
+  background: white;
+}
+
+/* .travel-image {
+  position: absolute;
+  width: 125px;
+  height: 168px;
+  left: 40px;
+  top: 100px;
+  background: url(.png);
+  border-radius: 5px;
+} */
