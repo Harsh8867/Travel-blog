@@ -31,4 +31,15 @@ export default [
     imageUrl:
       "https://lh5.googleusercontent.com/p/AF1QipP1q5ZRm7LfqoaChZT7hLlgskGFyhgsEqT3t2ul=w408-h383-k-no",
   },
+  {
+    title: "Kedarnath",
+    location: "India",
+    googleMapsUrl: "https://goo.gl/maps/pwrWx8hGhqpTe61W6",
+    startDate: "12 Aug, 2022",
+    endDate: "15 Aug, 2022",
+    description:
+      "Kedarnath is a town in Rudraprayag district in the state of Uttarakhand in India and has gained importance because of the Kedarnath Temple. It is approximately 86 kilometres from Rudraprayag, the district headquarter. It is a Nagar panchayat in the Rudraprayag district.",
+    imageUrl:
+      "https://lh5.googleusercontent.com/p/AF1QipP1q5ZRm7LfqoaChZT7hLlgskGFyhgsEqT3t2ul=w408-h383-k-no",
+  },
 ];
